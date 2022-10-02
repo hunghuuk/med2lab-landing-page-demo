@@ -120,7 +120,7 @@ const FormRegister: React.FC<{}> = () => {
                                                 <div className="text-sm my-4 text-center text-[#5c5c5c]" role="alert">
                                                     <div dangerouslySetInnerHTML={{ __html: stateData?.Message ?  stateData?.Message : "" }} />
                                                 </div>
-                                                <Link href="http://dev-us.med2lab.com/kachi/login">
+                                                <Link href="http://dev-us.med2lab.com/kachi-health/login">
                                                     <span className="w-1/2 mx-auto block cursor-pointer rounded-lg mt-4 bg-primary p-3 text-center font-medium text-white transition-colors hover:bg-primary hover:shadow-xl">Go To Log In Page</span>
                                                 </Link>
                                             </div>
@@ -225,7 +225,7 @@ const FormRegister: React.FC<{}> = () => {
                                                     )}
                                                     REGISTER FOR DEMO
                                                 </button>
-                                                <p className='mt-3 text-center'>Already have an account? <a className="text-[#003D7C]" href="http://dev-us.med2lab.com/nus/login">Click here</a> to log in</p>
+                                                <p className='mt-3 text-center'>Already have an account? <a className="text-[#003D7C]" href="http://dev-us.med2lab.com/kachi-health/login">Click here</a> to log in</p>
                                             </div>
                                         )}
                                     </Form>
