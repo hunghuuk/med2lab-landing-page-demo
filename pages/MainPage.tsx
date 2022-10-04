@@ -50,12 +50,14 @@ export default function MainPage() {
       render={({ state, fullpageApi }) => {
         console.log('render prop change', state, fullpageApi) // eslint-disable-line no-console
         return (
-          <ReactFullpage.Wrapper>
-            <HomeSection />
-            <WhyKachiHealthSection />
-            <FormRegister />
-            <ContactForm />
-          </ReactFullpage.Wrapper>
+          <div className="main-content">
+            <ReactFullpage.Wrapper>
+              <HomeSection />
+              <WhyKachiHealthSection />
+              <FormRegister />
+              <ContactForm />
+            </ReactFullpage.Wrapper>
+          </div>
         )
       }}
     />
